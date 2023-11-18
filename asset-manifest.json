@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_tempo/static/css/main.aeb9117e.css",
+    "main.js": "/react_tempo/static/js/main.5337897c.js",
+    "index.html": "/react_tempo/index.html",
+    "main.aeb9117e.css.map": "/react_tempo/static/css/main.aeb9117e.css.map",
+    "main.5337897c.js.map": "/react_tempo/static/js/main.5337897c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aeb9117e.css",
+    "static/js/main.5337897c.js"
+  ]
+}
