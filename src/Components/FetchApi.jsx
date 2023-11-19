@@ -10,7 +10,7 @@ function FetchApi() {
       .then(res => res.json())
       .then(data => {
         setApiData(data.users);
-        console.log(data.users);
+        // console.log(data.users);
       })
       .catch(err => console.log(err));
   }, []);
