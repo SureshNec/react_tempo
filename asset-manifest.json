@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react_tempo/static/css/main.aeb9117e.css",
-    "main.js": "/react_tempo/static/js/main.30ec775a.js",
+    "main.css": "/react_tempo/static/css/main.092627e8.css",
+    "main.js": "/react_tempo/static/js/main.9b033c8a.js",
     "index.html": "/react_tempo/index.html",
-    "main.aeb9117e.css.map": "/react_tempo/static/css/main.aeb9117e.css.map",
-    "main.30ec775a.js.map": "/react_tempo/static/js/main.30ec775a.js.map"
+    "main.092627e8.css.map": "/react_tempo/static/css/main.092627e8.css.map",
+    "main.9b033c8a.js.map": "/react_tempo/static/js/main.9b033c8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeb9117e.css",
-    "static/js/main.30ec775a.js"
+    "static/css/main.092627e8.css",
+    "static/js/main.9b033c8a.js"
   ]
 }
