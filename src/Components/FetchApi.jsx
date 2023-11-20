@@ -36,8 +36,14 @@ function FetchApi() {
 
   return (
     <div>
-      <label>Search for a Name: </label>
-      <input type="text" onChange={handleSearch} value={state} />
+      <h3>Fetch Api</h3>
+      <input
+        type="text"
+        onChange={handleSearch}
+        value={state}
+        placeholder="Search for a Name"
+        autoFocus
+      />
       <ul>
         {state &&
           arrFilter?.map(item => (

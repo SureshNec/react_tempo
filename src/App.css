@@ -3,6 +3,7 @@
 }
 .greet {
   color: orangered;
+  font-size: clamp(1rem, 0.346rem + 3.0332vw, 3rem);
 }
 li {
   list-style-type: none;
