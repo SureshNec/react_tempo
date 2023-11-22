@@ -19,7 +19,7 @@ class ParentComp extends Component {
 
   render() {
     return (
-      <div>
+      <div className="borderComp">
         <h3>This is Parent {this.state.name}</h3>
         <button onClick={() => this.handleChild()}>test</button>
         <ChildComp func={this.handleChild} />

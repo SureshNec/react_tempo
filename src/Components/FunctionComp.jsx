@@ -45,11 +45,11 @@ function FunctionComp(props) {
         value={change}
         onChange={e => setChange(e.target.value)}
       />
-      <input
+      {/* <input
         type="color"
         value={change}
         onChange={e => setChange(e.target.value)}
-      />
+      /> */}
       <button onClick={() => setChange('')}>Reset</button>
       <br />
       {change}
