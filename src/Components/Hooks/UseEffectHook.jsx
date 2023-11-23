@@ -5,11 +5,14 @@ function UseEffectHook() {
   const [apiData, setApiData] = useState();
 
   useEffect(() => {
+    // console.log('UseEffect Called');
     Axios.get('https://dummyjson.com/products?skip=0&limit=8')
       .then(res => setApiData(res.data.products))
       .catch(err => console.log(err));
+    // return console.log('UseEffect Unmounted');
   }, []);
-  console.log(apiData);
+  // console.log(apiData);
+  // console.log('Outer Function Called');
   return (
     <div className="borderComp">
       <h3>UseEffect Hook</h3>

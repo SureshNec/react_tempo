@@ -35,14 +35,14 @@ function FetchApi() {
   });
 
   return (
-    <div>
+    <div className="borderComp">
       <h3>Fetch Api</h3>
       <input
         type="text"
         onChange={handleSearch}
         value={state}
         placeholder="Search for a Name"
-        autoFocus
+        // autoFocus
       />
       <ul>
         {state &&

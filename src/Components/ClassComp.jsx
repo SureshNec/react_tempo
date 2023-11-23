@@ -23,7 +23,7 @@ class ClassComp extends Component {
 
   render() {
     return (
-      <div>
+      <div className="borderComp">
         <h1 style={{ color: 'skyblue' }}>
           {this.state.message}
           <span style={{ color: 'pink' }}> {this.props.name}</span>

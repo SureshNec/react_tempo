@@ -31,7 +31,7 @@ function FunctionComp(props) {
   };
 
   return (
-    <div>
+    <div className="borderComp">
       <h1 className="greet">
         {state} <span style={heading}>{props.name}</span>
       </h1>
